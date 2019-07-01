@@ -7,8 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create!(email: "e@test.com", first_name: "Emily", surname: "Bowe", password: "secretpw", password_confirmation: "secretpw", is_doctor: true)
+User.create!(email: "richard@mail.com", first_name: "Richard", surname: "Condon", password: "secretpw", password_confirmation: "secretpw", is_doctor: true)
+User.create!(email: "paul@mail.com", first_name: "Paul", surname: "Boland", password: "secretpw", password_confirmation: "secretpw", is_doctor: true)
+User.create!(email: "mark@mail.com", first_name: "Mark", surname: "Sparky", password: "secretpw", password_confirmation: "secretpw", is_doctor: true)
 
 (1..5).each do |number|
   User.create!(email: "#{number}@test.com", first_name: "#{number}", surname: "#{number}son", password: "secretpw", password_confirmation: "secretpw", is_doctor: [true, false].sample)
 end
+
 
