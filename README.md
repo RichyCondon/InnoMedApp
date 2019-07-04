@@ -64,3 +64,6 @@ Further information:
 •	Once you log in it displays in the navbar with an option to logout
 
 
+Versions:
+rails 5.2.3
+ruby 2.6.0
